@@ -53,10 +53,10 @@ def play(word):
 		print(word_completion)
 		print("\n")
 
-		if guessed==True:
-			print("Yay! You guessed the word! You Win!")
-		else:
-			print("Sorry, you suck and you ran out of tries. The word was "+word+". Maybe next time!" )
+	if guessed==True:
+		print("Yay! You guessed the word! You Win!")
+	else:
+		print("Sorry, you suck and you ran out of tries. The word was "+word+". Maybe next time!" )
 
 
 
